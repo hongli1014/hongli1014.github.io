@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hongli1014Blog">
-    <meta name="description" content="泓利的博客觉得好玩就做了没想到确实很无聊谁知道搞这个这么麻烦也就我能搞得这么简单了">
+    <meta name="keywords" content="JavaScript基础知识总结, hongli1014Blog">
+    <meta name="description" content="JavaScript基础知识总结基本语法javascript：ECMAScript、DOM、BOM
+1、编写位置1）js代码写在&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;标签中
+2）&amp;lt;script&amp;gt;&amp;lt;/sc">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +21,7 @@
 
     
 
-    <title>hongli1014Blog</title>
+    <title>JavaScript基础知识总结 | hongli1014Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -246,12 +248,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">JavaScript基础知识总结</h1>
                 </div>
             </div>
         </div>
@@ -379,7 +381,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-06-10
+                    2022-07-20
                 </div>
                 
 
@@ -393,7 +395,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    41
+                    325
                 </div>
                 
 
@@ -420,7 +422,99 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="泓利的博客"><a href="#泓利的博客" class="headerlink" title="泓利的博客"></a>泓利的博客</h1><h2 id="觉得好玩就做了"><a href="#觉得好玩就做了" class="headerlink" title="觉得好玩就做了"></a>觉得好玩就做了</h2><h2 id="没想到确实很无聊"><a href="#没想到确实很无聊" class="headerlink" title="没想到确实很无聊"></a>没想到确实很无聊</h2><h2 id="谁知道搞这个这么麻烦"><a href="#谁知道搞这个这么麻烦" class="headerlink" title="谁知道搞这个这么麻烦"></a>谁知道搞这个这么麻烦</h2><h2 id="也就我能搞得这么简单了"><a href="#也就我能搞得这么简单了" class="headerlink" title="也就我能搞得这么简单了"></a>也就我能搞得这么简单了</h2>
+                <h1 id="JavaScript基础知识总结"><a href="#JavaScript基础知识总结" class="headerlink" title="JavaScript基础知识总结"></a>JavaScript基础知识总结</h1><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><p>javascript：ECMAScript、DOM、BOM</p>
+<h3 id="1、编写位置"><a href="#1、编写位置" class="headerlink" title="1、编写位置"></a>1、编写位置</h3><p>1）js代码写在<code>&lt;script&gt;&lt;/script&gt;</code>标签中</p>
+<p>2）<code>&lt;script&gt;&lt;/script&gt;</code>标签放在<code>&lt;head&gt;&lt;/head&gt;</code>标签中</p>
+<p>3）外部引入：<code>&lt;script type:text/javascript; src:&quot;外部.js文件路径&quot;&gt;&lt;/script&gt;</code></p>
+<h3 id="2、严格区分大小写"><a href="#2、严格区分大小写" class="headerlink" title="2、严格区分大小写"></a>2、严格区分大小写</h3><h3 id="3、注释"><a href="#3、注释" class="headerlink" title="3、注释"></a>3、注释</h3><p>单行注释		&#x2F;&#x2F;</p>
+<p>多行注释		&#x2F;**&#x2F;</p>
+<h3 id="4、标识符"><a href="#4、标识符" class="headerlink" title="4、标识符"></a>4、标识符</h3><p>标识符：指变量、函数、属性名称等</p>
+<p>命名规范：</p>
+<p>​	1）命名可以是字母、数字、_(下划线)、$(美元符号)</p>
+<p>​	2）不能以数字开头</p>
+<p>​	3）不能是关键字和保留字</p>
+<p>​	4）采用驼峰命名法</p>
+<p>【关键字 29个】</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>break</strong></th>
+<th align="center"><strong>do</strong></th>
+<th align="center"><strong>instanceof</strong></th>
+<th align="center"><strong>typeof</strong></th>
+<th align="center"><strong>case</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>else</strong></td>
+<td align="center"><strong>new</strong></td>
+<td align="center"><strong>var</strong></td>
+<td align="center"><strong>catch</strong></td>
+<td align="center"><strong>finally</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>return</strong></td>
+<td align="center"><strong>void</strong></td>
+<td align="center"><strong>continue</strong></td>
+<td align="center"><strong>for</strong></td>
+<td align="center"><strong>switch</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>while</strong></td>
+<td align="center"><strong>default</strong></td>
+<td align="center"><strong>if</strong></td>
+<td align="center"><strong>throw</strong></td>
+<td align="center"><strong>delete</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>in</strong></td>
+<td align="center"><strong>try</strong></td>
+<td align="center"><strong>function</strong></td>
+<td align="center"><strong>this</strong></td>
+<td align="center"><strong>with</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>debugger</strong></td>
+<td align="center"><strong>false</strong></td>
+<td align="center"><strong>true</strong></td>
+<td align="center"><strong>null</strong></td>
+<td align="center">****</td>
+</tr>
+</tbody></table>
+<p>【保留字 16个】</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>class</strong></th>
+<th align="center"><strong>enum</strong></th>
+<th align="center"><strong>extends</strong></th>
+<th align="center"><strong>super</strong></th>
+<th align="center"><strong>const</strong></th>
+<th align="center"><strong>export</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>import</strong></td>
+<td align="center"><strong>implements</strong></td>
+<td align="center"><strong>let</strong></td>
+<td align="center"><strong>private</strong></td>
+<td align="center"><strong>public</strong></td>
+<td align="center"><strong>yield</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>interface</strong></td>
+<td align="center"><strong>package</strong></td>
+<td align="center"><strong>protected</strong></td>
+<td align="center"><strong>static</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="数据类型（6种）"><a href="#数据类型（6种）" class="headerlink" title="数据类型（6种）"></a>数据类型（6种）</h2><p>5种基本数据类型+1种引用数据类型</p>
+<h3 id="1、字符串型String"><a href="#1、字符串型String" class="headerlink" title="1、字符串型	String"></a>1、字符串型	String</h3><h3 id="2、数值型Number"><a href="#2、数值型Number" class="headerlink" title="2、数值型	Number"></a>2、数值型	Number</h3><h3 id="3、布尔型Boolean"><a href="#3、布尔型Boolean" class="headerlink" title="3、布尔型	Boolean"></a>3、布尔型	Boolean</h3><h3 id="4、未定义Undefined"><a href="#4、未定义Undefined" class="headerlink" title="4、未定义	Undefined"></a>4、未定义	Undefined</h3><h3 id="5、空对象Null"><a href="#5、空对象Null" class="headerlink" title="5、空对象	Null"></a>5、空对象	Null</h3><h3 id="6、对象Object（引用数据类型）"><a href="#6、对象Object（引用数据类型）" class="headerlink" title="6、对象	Object（引用数据类型）"></a>6、对象	Object（引用数据类型）</h3><h2 id="typeof运算符"><a href="#typeof运算符" class="headerlink" title="typeof运算符"></a>typeof运算符</h2><p>typeof用来检查一个变量的数据类型</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> c = <span class="number">123</span>;</span><br><span class="line"><span class="keyword">var</span> d = <span class="string">&quot;123&quot;</span>;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> c);  <span class="comment">// number</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> d);  <span class="comment">// string</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> <span class="title class_">Infinity</span>);   <span class="comment">// number</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> <span class="title class_">NaN</span>);    <span class="comment">// number</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> <span class="literal">undefined</span>);  <span class="comment">// undefined</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="keyword">typeof</span> <span class="literal">null</span>);   <span class="comment">// object</span></span><br></pre></td></tr></table></figure>
+
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>
                 
             </div>
             <hr/>
@@ -446,7 +540,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hongli1014.top/2022/06/10/hello-world/">http://hongli1014.top/2022/06/10/hello-world/</a>
+                    <a href="http://hongli1014.top/2022/07/20/JavaScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/">http://hongli1014.top/2022/07/20/JavaScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -652,7 +746,7 @@
         repo: '',
         owner: '',
         admin: null,
-        id: '2022-06-10T15-23-22',
+        id: '2022-07-20T21-16-28',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -682,9 +776,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/07/20/JavaScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/">
                     <div class="card-image">
@@ -702,9 +797,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -713,6 +808,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -720,7 +816,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/06/10/hello-world/">
@@ -750,7 +846,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
